@@ -2,6 +2,10 @@
 
 Port Scanner is a simple Python tool for scanning ports on a target host.
 
+![screenshots 01](https://github.com/SampathTharanga/Port-Scanner/assets/17849521/8a4af722-80cb-4afe-bf30-98bd81e8baf3)
+
+![screenshots 02](https://github.com/SampathTharanga/Port-Scanner/assets/17849521/b480d33e-df41-492d-8d13-8e1b093642d5)
+
 ## Features
 
 - Scan a range of ports on a target host
