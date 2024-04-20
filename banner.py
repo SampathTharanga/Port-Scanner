@@ -1,28 +1,8 @@
-name = "Port Scanner"
-
-# Define the characters used to create the banner
-characters = {
-    "P": ["██████╗ ", "██╔══██╗", "██║  ██║", "██║  ██║", "██████╔╝", "╚═════╝ "],
-    "o": ["  ██████╗ ", " ██╔═████╗", "██║██╔██║", "████╔╝██║", "╚██████╔╝", " ╚═════╝ "],
-    "r": ["██████╗ ", "██╔══██╗", "██████╔╝", "██╔══██╗", "██║  ██║", "╚═╝  ╚═╝"],
-    "t": ["███████╗", "╚════██║", "    ██╔╝", "   ██╔╝ ", "   ██║  ", "   ╚═╝  "],
-    " ": ["        ", "        ", "        ", "        ", "        ", "        "],
-    "S": ["  ██████╗ ", "██╔════╝ ", "██║  ███╗", "██║   ██║", "╚██████╔╝", " ╚═════╝ "],
-    "c": ["  ██████╗ ", " ██╔════╝ ", " ██║  ███╗", " ██║   ██║", " ╚██████╔╝", "  ╚═════╝ "],
-    "a": ["  ██████╗ ", " ██╔════╝ ", " ██║  ███╗", " ██║   ██║", " ╚██████╔╝", "  ╚═════╝ "],
-    "n": ["███╗   ██╗", "████╗  ██║", "██╔██╗ ██║", "██║╚██╗██║", "██║ ╚████║", "╚═╝  ╚═══╝"],
-    "e": ["███████╗", "██╔════╝", "█████╗  ", "██╔══╝  ", "███████╗", "╚══════╝"]
-}
-
 # Function to print the banner
-def print_banner(name):
-    for line in range(len(characters["P"])):
-        for char in name:
-            if char in characters:
-                print(characters[char][line], end=" ")
-            else:
-                print("      ", end=" ")  # Six spaces for characters not in the dictionary
-        print()
-
+def print_banner():
+    print('-' * 50)
+    print("\n                  PORT SCANNER V 1.0")
+    print("             Developed by \"Sampath Tharanga\" \n")
+    print('-' * 50)
 # Print the banner
-print_banner(name)
+print_banner()

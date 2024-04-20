@@ -1,4 +1,5 @@
 import socket
+from banner import print_banner 
 
 def port_scan(target, ports):
     open_ports = []
