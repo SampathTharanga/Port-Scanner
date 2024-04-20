@@ -1,3 +1,11 @@
+"""
+TOOL NAME   : PORT SCANNER V 1.0
+RELEASE DATE: 2024 APRIL 21
+DEVELOPER   : SAMPATH THARANGA
+
+"""
+
+
 import socket
 from banner import print_banner 
 
